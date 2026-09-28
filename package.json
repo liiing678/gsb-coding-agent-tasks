@@ -1,0 +1,14 @@
+{
+  "name": "ledger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "复式记账：分币种平衡、期间锁定与冲正",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/post.test.js test/report.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
