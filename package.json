@@ -1,0 +1,14 @@
+{
+  "name": "seqmerge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "协同编辑文本副本：按字符身份的插入/删除、乱序到达与收敛合并",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/edit.test.js test/merge.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
