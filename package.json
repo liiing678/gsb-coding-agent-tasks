@@ -1,0 +1,14 @@
+{
+  "name": "calexpand",
+  "version": "0.1.0",
+  "private": true,
+  "description": "重复日程展开：把 RRULE 展开成具体发生时间",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/rules.test.js test/dst.test.js test/overrides.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
