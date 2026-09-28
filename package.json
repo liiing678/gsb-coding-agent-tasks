@@ -1,0 +1,10 @@
+{
+  "name": "connlease",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/connlease.test.js",
+    "demo": "node bin/demo.js --config configs/dev.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "connlease": {
+    "maxConnections": 4,
+    "acquireTimeoutMs": 800,
+    "leaseTimeoutMs": 300,
+    "maxWaiters": 8,
+    "reclaimIntervalMs": 50
+  }
+}
