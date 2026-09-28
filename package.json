@@ -1,0 +1,14 @@
+{
+  "name": "globignore",
+  "version": "0.1.0",
+  "private": true,
+  "description": "路径忽略规则：锚定、目录剪枝与最后一条命中",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/match.test.js test/walk.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
