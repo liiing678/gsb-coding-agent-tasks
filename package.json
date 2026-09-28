@@ -1,0 +1,14 @@
+{
+  "name": "twopc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "两阶段提交协调器：投票决策、超时回滚、重发与崩溃恢复",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/decide.test.js test/recover.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
