@@ -1,0 +1,14 @@
+{
+  "name": "cidrroute",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CIDR 前缀表：最长前缀匹配与按值聚合",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/prefix.test.js test/table.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
