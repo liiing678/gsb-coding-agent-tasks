@@ -1,0 +1,14 @@
+{
+  "name": "tscodec",
+  "version": "0.1.0",
+  "private": true,
+  "description": "时序压缩：delta-of-delta 时间戳与 XOR 值编码",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/format.test.js test/roundtrip.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
