@@ -1,0 +1,14 @@
+{
+  "name": "merkleproof",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Merkle 日志：包含证明与一致性证明（RFC 6962）",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/merkle.test.js test/verify.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
