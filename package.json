@@ -1,0 +1,14 @@
+{
+  "name": "durakv",
+  "version": "0.1.0",
+  "private": true,
+  "description": "带预写日志、崩溃恢复和快照读的本地 KV",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/txn.test.js test/recovery.test.js test/snapshot.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
