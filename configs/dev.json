@@ -1,0 +1,12 @@
+{
+  "listen": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "idempotency": {
+    "ttlMs": 60000,
+    "maxEntries": 1024,
+    "maxWaiters": 32,
+    "maxKeyBytes": 128
+  }
+}
