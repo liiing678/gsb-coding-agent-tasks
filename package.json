@@ -1,0 +1,14 @@
+{
+  "name": "matchgrid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "多模式匹配：重叠命中、码点定位与跨块扫描",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/scan.test.js test/stream.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
