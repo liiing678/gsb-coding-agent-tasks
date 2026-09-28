@@ -1,0 +1,14 @@
+{
+  "name": "lzpack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LZSS 压缩与解压：确定性匹配搜索、窗口边界与损坏检测",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/roundtrip.test.js test/format.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
