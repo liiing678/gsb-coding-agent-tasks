@@ -1,0 +1,9 @@
+{
+  "eventpush": {
+    "perConnBuffer": 8,
+    "defaultOverflowPolicy": "drop_oldest",
+    "replayWindow": 32,
+    "maxSubscriptions": 16,
+    "drainTimeoutMs": 2000
+  }
+}
