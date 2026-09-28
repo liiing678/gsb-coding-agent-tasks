@@ -1,0 +1,14 @@
+{
+  "name": "avlmap",
+  "version": "0.1.0",
+  "private": true,
+  "description": "自平衡有序表：整数键、名次与区间查询",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/map.test.js test/order.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
