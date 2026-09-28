@@ -1,0 +1,14 @@
+{
+  "name": "raftlog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Raft 日志复制：冲突截断、提交规则、快照与成员变更",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/log.test.js test/cluster.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
