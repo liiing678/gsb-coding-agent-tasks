@@ -1,0 +1,28 @@
+{
+  "egress": {
+    "budgetMs": 2000,
+    "attemptTimeoutMs": 300,
+    "minAttemptRatio": 0.5,
+    "maxAttempts": 3,
+    "backoff": {
+      "baseMs": 50,
+      "factor": 2,
+      "maxMs": 400,
+      "jitterMs": 0
+    },
+    "breaker": {
+      "windowSize": 8,
+      "minSamples": 3,
+      "failureRatio": 0.6,
+      "cooldownMs": 1200,
+      "openBackoffFactor": 2,
+      "cooldownMaxMs": 10000,
+      "probeConcurrency": 1,
+      "probeSuccesses": 2
+    },
+    "bulkhead": {
+      "maxConcurrency": 4,
+      "queueLimit": 8
+    }
+  }
+}
