@@ -1,0 +1,14 @@
+{
+  "name": "roarbit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "32 位 roaring 位图：容器类型判定、集合运算与相等",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/bitmap.test.js test/ops.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
