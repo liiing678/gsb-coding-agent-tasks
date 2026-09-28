@@ -1,0 +1,14 @@
+{
+  "name": "extmerge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "有界内存的外部归并排序：溢出文件、多路归并与稳定次序",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/sort.test.js test/bash.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
