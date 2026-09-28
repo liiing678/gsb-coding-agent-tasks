@@ -1,0 +1,14 @@
+{
+  "name": "reqsign",
+  "version": "0.1.0",
+  "private": true,
+  "description": "请求签名：规范请求、派生签名密钥与预签名 URL",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/canonical.test.js test/sign.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
