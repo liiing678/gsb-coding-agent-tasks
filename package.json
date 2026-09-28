@@ -1,0 +1,14 @@
+{
+  "name": "querylite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "内存查询引擎：过滤、连接、分组聚合、排序与 null 语义",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/query.test.js test/agg.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
