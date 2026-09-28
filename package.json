@@ -1,0 +1,14 @@
+{
+  "name": "burstgate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "多租户限流与配额：令牌桶 + 滑动窗口 + 共享池",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/bucket.test.js test/window.test.js test/gate.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
