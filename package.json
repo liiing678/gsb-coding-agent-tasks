@@ -1,0 +1,14 @@
+{
+  "name": "heapfit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "定长区间上的分配器：首次 / 最佳适配、切分与合并",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/heap.test.js test/edge.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
