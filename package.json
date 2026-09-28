@@ -1,0 +1,14 @@
+{
+  "name": "lexindex",
+  "version": "0.1.0",
+  "private": true,
+  "description": "内存倒排索引：词项 / 短语 / 前缀 / 布尔查询 + BM25",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/index.test.js test/query.test.js test/snapshot.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
