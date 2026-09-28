@@ -1,0 +1,9 @@
+{
+  "name": "tokenkeeper",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/tokens.test.js test/refresh.test.js test/revoke.test.js"
+  }
+}

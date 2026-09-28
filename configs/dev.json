@@ -1,0 +1,27 @@
+{
+  "listen": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "tokens": {
+    "issuer": "tokenkeeper-dev",
+    "accessTtlMs": 900000,
+    "refreshTtlMs": 1209600000,
+    "clockSkewMs": 30000,
+    "revocationCapacity": 4096
+  },
+  "keys": [
+    {
+      "kid": "k2",
+      "secret": "dev-secret-k2",
+      "state": "active",
+      "verifyUntil": null
+    },
+    {
+      "kid": "k1",
+      "secret": "dev-secret-k1",
+      "state": "verifyOnly",
+      "verifyUntil": "2026-12-31T00:00:00.000Z"
+    }
+  ]
+}
