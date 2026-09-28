@@ -1,0 +1,14 @@
+{
+  "name": "mvccstore",
+  "version": "0.1.0",
+  "private": true,
+  "description": "内存 MVCC 事务存储：快照隔离、写写冲突检测、版本回收",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/txn.test.js test/store.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
