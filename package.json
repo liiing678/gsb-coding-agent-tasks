@@ -1,0 +1,14 @@
+{
+  "name": "pagetable",
+  "version": "0.1.0",
+  "private": true,
+  "description": "piece table 文本缓冲：分行定位、撤销重做与事务",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/buffer.test.js test/lines.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
