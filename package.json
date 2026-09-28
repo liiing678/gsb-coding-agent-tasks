@@ -1,0 +1,14 @@
+{
+  "name": "typemap",
+  "version": "0.1.0",
+  "private": true,
+  "description": "压缩前缀树自动补全：权重排序、删除回收与模糊匹配",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/trie.test.js test/edge.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
