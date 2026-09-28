@@ -1,0 +1,14 @@
+{
+  "name": "waitgraph",
+  "version": "0.1.0",
+  "private": true,
+  "description": "事务等待图：FIFO 资源交接、死锁检测与受害者选择",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/wait.test.js test/detect.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
