@@ -1,0 +1,14 @@
+{
+  "name": "solvemod",
+  "version": "0.1.0",
+  "private": true,
+  "description": "依赖版本求解：回溯择版、锁定与冲突解释",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/solve.test.js test/conflict.test.js test/pins.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
