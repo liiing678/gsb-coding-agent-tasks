@@ -1,0 +1,14 @@
+{
+  "name": "flagr",
+  "version": "0.1.0",
+  "private": true,
+  "description": "灰度开关求值：粘性分桶、规则优先、依赖与版本",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/evaluate.test.js test/rules.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
