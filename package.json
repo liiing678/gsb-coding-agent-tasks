@@ -1,0 +1,14 @@
+{
+  "name": "wirecodec",
+  "version": "0.1.0",
+  "private": true,
+  "description": "变长整数二进制编解码：字段编号、未知字段保留与最短编码",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/encode.test.js test/decode.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
