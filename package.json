@@ -1,0 +1,14 @@
+{
+  "name": "mergeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "行级三方合并：冲突区标注与合并策略",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/basic.test.js test/conflict.test.js test/policy.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
