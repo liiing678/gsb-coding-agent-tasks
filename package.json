@@ -1,0 +1,14 @@
+{
+  "name": "jsonpatch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JSON 指针、patch、merge patch、diff 与反向 patch",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/pointer.test.js test/patch.test.js test/diff.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
