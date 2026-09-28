@@ -1,0 +1,14 @@
+{
+  "name": "flate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DEFLATE 解压与 zlib 包装",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/inflate.test.js test/zlib.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
