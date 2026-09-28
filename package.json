@@ -1,0 +1,14 @@
+{
+  "name": "httpcache",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HTTP 缓存语义：新鲜度、Vary、条件请求与 stale 复用",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/freshness.test.js test/revalidate.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
