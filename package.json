@@ -1,0 +1,14 @@
+{
+  "name": "dedupstore",
+  "version": "0.1.0",
+  "private": true,
+  "description": "内容定义分块的去重存储：引用计数、快照钉住与垃圾回收",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/chunk.test.js test/refs.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
