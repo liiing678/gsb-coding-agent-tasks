@@ -1,0 +1,10 @@
+{
+  "cache": {
+    "defaultTtlMs": 60000,
+    "negativeTtlMs": 5000,
+    "lockTtlMs": 3000,
+    "lockRetryMs": 100,
+    "lockWaitMs": 5000,
+    "failMode": "fail_open"
+  }
+}
