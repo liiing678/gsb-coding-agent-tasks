@@ -1,0 +1,14 @@
+{
+  "name": "stateflow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "层级状态机：初始链、历史状态与事件队列的确定性解释",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/machine.test.js test/history.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
