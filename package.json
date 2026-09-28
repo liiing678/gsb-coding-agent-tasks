@@ -1,0 +1,14 @@
+{
+  "name": "policygate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "属性化访问决策：优先级、拒绝优先与条件求值",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/match.test.js test/decide.test.js test/cache.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
