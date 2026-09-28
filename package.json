@@ -1,0 +1,14 @@
+{
+  "name": "wrapfold",
+  "version": "0.1.0",
+  "private": true,
+  "description": "折行与截断：码点宽度、字素簇断点与禁则修正",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/width.test.js test/wrap.test.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
